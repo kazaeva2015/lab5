@@ -15,6 +15,7 @@ class Collection(object):
         self.pay = pay
         self.number = number
         new_str = 5
+        new_str1 = 10
 
     def __setattr__(self, attr, value):
         """ Устанавливает значение атрибута указанного объекта по его имени
